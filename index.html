@@ -96,31 +96,26 @@
 				<img src="images/1.png" alt=""/>
 			</div>
 			<div class="banner-right">
-				<h1>霍春桃</h1>
+				<h1>霍春涛</h1>
 				<div class="border"></div>
-				<h2>UI设计工程师</h2>
+				<h2>平面设计师</h2>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>
 <!--/header-banner-->
-<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >霍春桃的个人简历</a></div>
+<div class="copyrights">Collect from <a href="http://huochuntao.github.io" >霍春涛的个人简历</a></div>
 <!--about-->
 <div class="about text-center" id="about">
 	<div class="container">
 		<h3>关于我</h3>
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>Dyin' ain't much of a livin', boy. here. put that in your report!" and "i may have found 
-		a way out of here. you want a guarantee, buy a toaster. here. put that in your report!" and 
-		"i may have found a way out of here. this is the ak-47 assault rifle, the preferred weapon of 
-		your enemy; and it makes a distinctive sound when fired at you, so remember it. this is the ak-47 
-		assault rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at 
-		you, so remember it. don't p!ss down my back and tell me it's raining. this is the ak-47 assault 
-		rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, 
-		so remember it. don't p!ss down my back and tell me it's raining. this is my gun, clyde! man's 
-		gotta know his limitations. ever notice how sometimes you come across somebody you shouldn't have 
-		f**ked with? well, i'm that guy.</p>
+		<p align="left">都说艺术来源与生活且高于生活；这句话是对艺术最好的诠释。热爱生活、热爱艺术，
+		这是一个来自90后特立独行的设计师对自己的评价。学业专修艺术设计（视觉传达研究方向）。
+		平时喜欢做原创的东西；热衷于手工。在生活方面我乐观，热情，诚恳，宽容。
+		一个人做的好与不好，无非就是你是否想的周到得体，我相信我会发掘出与众不同的东西，
+		能够做好每一件事。</p>
 		<ul>
 			<li><a class="qq" href="#"></a></li>
 		</ul>
@@ -144,19 +139,19 @@
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>Photography</p>
+						<p>CorelDRAW</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>Html 5 / CSS 3</p>
+						<p>InDesign</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-5"></div>
-						<p>C4D</p>
+						<p>Dreamweaver</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-6"></div>
-						<p>After Effect</p>
+						<p>WPS</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -165,9 +160,31 @@
 										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
 									];
 								for (var i = 1; i <= 7; i++) {
-									var child = document.getElementById('circles-' + i),
-										percentage = 30 + (i * 10);
-										
+									var child = document.getElementById('circles-' + i);
+
+									switch(i)
+									{
+										case 1:
+											percentage = 90;
+											break;
+										case 2:
+											percentage = 90;
+											break;
+										case 3:
+											percentage = 90;
+											break;
+										case 4:
+											percentage = 70;
+											break;
+										case 5:
+											percentage = 50;
+											break;
+										case 6:
+											percentage = 90;
+											break;
+										default:break;
+									}
+
 									Circles.create({
 										id:         child.id,
 										percentage: percentage,
@@ -194,30 +211,30 @@
 		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
 		<div class="edu-grids">
 			<div class="col-md-6 edu-grid">
-				<p>2012 - 2013</p><span>某某大学</span>
+				<p>2010 - 2014</p><span>洛阳理工学院</span>
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
-						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
-						<h4>Oxford University</h4>
+						<h3>专业：艺术设计（视觉传达）</h3>
+						<h4>学位：学士学位</h4>
 					</div>
 					<div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum. 
-						Well, the way they make shows is, they make one show.</h5>
+						<h5>专业学习：手绘  手工  品牌设计  包装设计  字体设计  广告策划 
+						  工艺美术史等等</h5> 
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 edu-grid">
-				<p>2012 - 2013</p><span>某某机构</span>
+				<p>2013 - 2014</p><span>风火广告公司</span>
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
-						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
-						<h4>Oxford University</h4>
+						<h3>职位名称：平面设计师 </h3>
+						<h4>行业：广告设计 </h4>
 					</div>
 					<div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum. 
-						Well, the way they make shows is, they make one show.</h5>
+						<h5>工作描述：负责杂志设计，比如内刊美食，汽车等广告。
+						VI设计，排版设计等。</h5>
 					</div>
 				</div>
 			</div>
@@ -237,23 +254,29 @@
 		</div>
 		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
 		<div class="work-grids">
-			<div class="col-md-4 w-grid">
+			<div class="col-md-6 w-grid">
 				<div class="work-grid">
-					<h3>2015 - Now</h3>
+					<h3>2014.6 - 2014.12</h3>
 					<div class="work-grid-info">
-						<h4>某某公司</h4>
-						<h5>某某职位</h5>
-						<p>主要工作内容描述</p>
+						<h4>北京博康君业体育文化发展有限公司</h4>
+						<h5>平面设计师</h5>
+						<p align="left">负责公司13家分店的日常DM单，宣传册，彩页，策划等设计和印刷厂联系制作等内容。
+						负责管理公司网页，和健身114网页等内容；每天定时更新内容，图片，公司微信后台操作。
+						每天定时更新内容，图片，公司微信后台操作。</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 w-grid">
+			<div class="col-md-6 w-grid">
 				<div class="work-grid">
-					<h3>2013 - 2015</h3>
+					<h3>2015.1 - 2016.2</h3>
 					<div class="work-grid-info">
-						<h4>某某公司</h4>
-						<h5>某某职位</h5>
-						<p>主要工作内容描述</p>
+						<h4>北京澳杰安博国际贸易有限公司</h4>
+						<h5>平面设计师 </h5>
+						<p align="left">一家进出口贸易公司；主要负责日常所有的平面设计；
+						线下主要是纸质这些印刷品， 
+						线上网站所需的banner设计；
+						微信、微博所需的配图以及一些GIF设计。
+						</p>
 					</div>
 				</div>
 			</div>
@@ -276,30 +299,24 @@
 			<div class="col-md-3 ser-grid">
 				<div class="ser-imagea"></div>
 				<h3>图片编辑</h3>
-				<p>I'm gonna shoot you in the head
-				then and there. Then I'm gonna shoot 
-				that bitch in the kneecaps.</p>
+				<p align="left">平面类软件操作都没有问题。
+				PS AI ID CDR DW。
+				</p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<div class="ser-imageb"></div>
 				<h3>文案编写</h3>
-				<p>I'm gonna shoot you in the head
-				then and there. Then I'm gonna shoot 
-				that bitch in the kneecaps.</p>
+				<p align="left">做过文案编辑，有一定的经验，平常也会看这方面的书籍；曾经在大广赛为美莱整形美容写过策划案，并拿到了奖项。</p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<div class="ser-imagec"></div>
 				<h3>web前端</h3>
-				<p>I'm gonna shoot you in the head
-				then and there. Then I'm gonna shoot 
-				that bitch in the kneecaps.</p>
+				<p align="left">目前属于入门级学员，学习能力是无限的，个人比较喜欢这一块。</p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<div class="ser-imaged"></div>
 				<h3>网站设计</h3>
-				<p>I'm gonna shoot you in the head
-				then and there. Then I'm gonna shoot 
-				that bitch in the kneecaps.</p>
+				<p align="left">有一定的经验，做的banner设计比较多。</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -311,12 +328,12 @@
 	<div class="container">
 		<h3>项目经历</h3>
 		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
-		<p>You think water moves fast? You should see ice. It moves like it has a mind. 
-		Like it knows it killed the world once and got a taste for murder. After the avalanche, 
-		it took us a week to climb out. Now, I don't know exactly when we turned on each other, 
-		but I know that seven of us survived the slide and only five made it out. Now we took an 
-		oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, 
-		but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
+		<p align="left">VI设计。
+          责任描述：
+          泽炜集团华致酒行公司主要从事预包装食品的批发、零售，建材、五金、办公、文体用品、以酒品保真连锁销售为主营业务，
+	      是为洛阳各消费阶层提供一流酒品及优质服务的中国高档真酒连锁销售系统。
+          项目简介：
+          负责VI设计，LOGO已经被采用。</p>
 		<div class="gallery-grids">
 			<div class="top-gallery">
 				<div class="col-md-4 gallery-grid gallery1">
@@ -330,40 +347,40 @@
 				<div class="col-md-4 gallery-grid gallery1">
 					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-							<h4>项目名称</h4>
-							<p>网页设计</p>
+							<h4>VI设计</h4>
+							<p>LOGO设计</p>
 							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
 					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-							<h4>项目名称</h4>
-							<p>文案编写</p>
+							<h4>手绘</h4>
+							<p>北京各个景点手绘</p>
 							<div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
 					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-							<h4>项目名称</h4>
-							<p>网页设计</p>
+							<h4>创意图形</h4>
+							<p>朱仙镇木板年画的现代设计</p>
 							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
 					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-							<h4>项目名称</h4>
-							<p>网页设计</p>
+							<h4>文案编辑</h4>
+							<p>美莱整形美容的文案</p>
 							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
 					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-							<h4>项目名称</h4>
-							<p>网页设计</p>
+							<h4>原创手工设计</h4>
+							<p>洛无限（仕女设计）</p>
 							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
@@ -383,13 +400,13 @@
 <!--process-->
 <div class="process text-center">
 	<div class="container">
-		<h3>职业历程</h3>
+		<h3>职业历程/规划</h3>
 		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
 		<div class="process-girds">
 			<div class="col-md-2 process-pad">
 				<div class="process-gird">
 					<div class="process-imagea"></div>
-					<p>图片编辑</p>
+					<p>基本设计</p>
 					<img src="images/6.png" alt=""/>
 				</div>
 			</div>
@@ -416,15 +433,14 @@
 			</div>
 			<div class="col-md-2 process-pad">
 				<div class="process-gird">
-					<div class="process-imagee"></div>
-					<p>整站设计</p>
-					<img src="images/6.png" alt=""/>
+					<div class="process-imagef"></div>
+					<p>前端设计</p>
 				</div>
 			</div>
 			<div class="col-md-2 process-pad">
 				<div class="process-gird">
 					<div class="process-imagef"></div>
-					<p>前端设计</p>
+					<p>网站设计</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -436,7 +452,7 @@
 <!--clients-->
 <div class="clients text-center">
 	<div class="container">
-		<h4>Clients</h4>
+		<h4>我的兴趣</h4>
 		<div class="strip-line"></div>
 		<div class="client-grids">
 			<div class="col-md-4 cl-grid">
@@ -474,11 +490,10 @@
 				<h3>Say Hi to Me</h3>
 				<div class="stripb"></div>
 				<ul>
-					<li>Orchard Park, Long Bennington, </li>
-					<li>Newark, Lincolnshire </li>
-					<li>NG23 5DQ, United Kingdom</li>
-					<li>9876543210</li>
-					<li><a href="mailto:cuojuehuo@qq.com">cuojuehuo@qq.com</a></li>
+					<li>北京市 </li>
+					
+					<li>联系电话：15801413395</li>
+					<li><a href="mailto:cuojuehuo@qq.com">邮箱：cuojuehuo@qq.com</a></li>
 					<li><a href="http://huochuntao.github.io">http://huochuntao.github.io</a></li>
 				</ul>
 			</div>
@@ -492,7 +507,7 @@
 <!--footer-->
 <div class="footer">
 	<div class="container">
-		<p>Copyright &copy; 2016. <a href="http://huochuntao.github.io" target="_blank" title="个人简历">霍春桃的个人简历</a></p>
+		<p>Copyright &copy; 2016. <a href="http://huochuntao.github.io" target="_blank" title="个人简历">霍春涛的个人简历</a></p>
 	</div>
 </div>
 <!--//footer-->
